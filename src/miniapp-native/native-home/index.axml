@@ -1,0 +1,2 @@
+<view>native-home</view>
+<view onTap="jump">jump 到 /pages/home/index</view>

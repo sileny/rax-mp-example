@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "source": "pages/home/index"
+    },
+    {
+      "path": "/native-home",
+      "source": "miniapp-native/native-home/index"
+    },
+    {
+      "source": "miniapp-native/f2-demo/index",
+      "targets": ["miniapp"]
+    },
+    {
+      "path": "/rax-web-view",
+      "source": "pages/rax-web-view/index"
+    },
+    {
+      "path": "/web-view",
+      "source": "pages/web-view/index",
+      "targets": ["miniapp"]
+    }
+  ],
+  "window": {
+    "title": "Rax App"
+  }
+}

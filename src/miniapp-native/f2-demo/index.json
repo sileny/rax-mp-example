@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "f2-demo",
+  "usingComponents": {
+    "f2-line": "./components/line-multi/index"
+  }
+}
